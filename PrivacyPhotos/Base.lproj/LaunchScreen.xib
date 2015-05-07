@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6751" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="小久久" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3PB-wT-jUB">
+                    <rect key="frame" x="-8" y="357" width="375" height="21"/>
+                    <fontDescription key="fontDescription" name="DFWaWaSC-W5" family="Wawati SC" pointSize="35"/>
+                    <color key="textColor" red="0.0" green="0.81176477670669556" blue="0.90196084976196289" alpha="1" colorSpace="deviceRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="iconttt.png" translatesAutoresizingMaskIntoConstraints="NO" id="0HV-y8-tzS">
+                    <rect key="frame" x="124" y="141" width="111" height="107"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="110" id="FPb-Xq-nLE"/>
+                        <constraint firstAttribute="width" secondItem="0HV-y8-tzS" secondAttribute="height" multiplier="111:107" id="VrA-xu-F2F"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3PB-wT-jUB" firstAttribute="top" secondItem="0HV-y8-tzS" secondAttribute="bottom" constant="28" id="7DG-Om-yGt"/>
+                <constraint firstItem="0HV-y8-tzS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="100" id="EfD-6U-Yve"/>
+                <constraint firstAttribute="trailing" secondItem="3PB-wT-jUB" secondAttribute="trailing" id="Qel-LZ-ok9"/>
+                <constraint firstAttribute="trailing" secondItem="0HV-y8-tzS" secondAttribute="trailing" constant="100" id="ZhK-Lv-6gH"/>
+                <constraint firstItem="0HV-y8-tzS" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iN0-l3-epB" secondAttribute="top" constant="67" id="jYA-Nc-MBm"/>
+                <constraint firstItem="3PB-wT-jUB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="yiE-jP-2Et"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="586.5" y="426.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iconttt.png" width="1024" height="1024"/>
+    </resources>
+</document>
